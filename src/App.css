@@ -22,14 +22,14 @@
 input {
     border: 3px solid #537D5D;
     border-radius: 20px;
-    height: 30px;
+    height: 20px;
     width: 300px;
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 label {
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
 }
 
@@ -37,4 +37,43 @@ label {
     height: 100vh;
     width: 600px;
     background-color: #CAE8BD;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4,
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    background-color: #4B352A;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.card-container>img {
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.details-container p {
+    margin: 5px 0;
 }
