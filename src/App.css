@@ -72,8 +72,48 @@ h2 {
     padding: 10px;
     font-family: sans-serif;
     color: #fff;
+    justify-content: center;
 }
 
 .details-container p {
     margin: 5px 0;
+    text-align: center;
+}
+
+.details-container h5 {
+    font-family: sans-serif;
+    margin: 3px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.details-container h6 {
+    font-family: sans-serif;
+    margin: 3px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.details-container a {
+    text-decoration: underline;
+    color: white;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.qr-div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copy-vcf {
+    display: flex;
+    justify-content: center;
+}
+
+.copy-vcf button {
+    margin-top: 8px;
+    border-radius: 1px solid #4B352A;
+    background-color: bisque;
+    border-radius: 10px;
 }
