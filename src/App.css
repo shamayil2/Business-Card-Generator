@@ -1,29 +1,15 @@
-.row {
-    display: flex;
-    justify-content: center;
-}
-
 .container {
-    display: flex;
     max-width: 1200px;
 }
 
 .user-details {
-    height: 100vh;
-    width: 600px;
     background-color: #B0DB9C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 15px;
 }
 
 input {
     border: 3px solid #537D5D;
     border-radius: 20px;
-    height: 20px;
-    width: 300px;
     margin-top: 5px;
     font-size: 12px;
 }
@@ -34,12 +20,7 @@ label {
 }
 
 .business-card {
-    height: 100vh;
-    width: 600px;
     background-color: #CAE8BD;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 h4,
@@ -49,49 +30,56 @@ h2 {
 }
 
 .card-container {
-    display: flex;
-    background-color: #4B352A;
-    flex-direction: column;
-    height: auto;
-    width: 300px;
+    background-color: #e8a483;
     border-radius: 20px;
-    justify-content: center;
     margin: 0 auto;
     gap: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 8px solid #b45a2d;
 }
 
 .card-container>img {
-    height: 100px;
     border-radius: 20px;
     margin-top: 10px;
 }
 
 .details-container {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     font-family: sans-serif;
     color: #fff;
-    justify-content: center;
+    display: inline-block;
+}
+
+.details-container div {
+    display: inline-block;
 }
 
 .details-container p {
     margin: 5px 0;
     text-align: center;
+    color: #875942;
+    margin: 0;
+    font-size: 12px;
 }
 
 .details-container h5 {
     font-family: sans-serif;
     margin: 3px 0px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    color: #4B352A;
+    font-weight: 700;
 }
 
 .details-container h6 {
     font-family: sans-serif;
     margin: 3px 0px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
+    color: #4B352A;
+    font-weight: 700;
+    ;
 }
 
 .details-container a {
@@ -106,10 +94,7 @@ h2 {
     margin-top: 10px;
 }
 
-.copy-vcf {
-    display: flex;
-    justify-content: center;
-}
+.copy-vcf {}
 
 .copy-vcf button {
     margin-top: 8px;
